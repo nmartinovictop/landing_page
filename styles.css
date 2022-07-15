@@ -80,6 +80,8 @@ button {
     /* justify-content: center; */
     align-items: center;
     flex-direction: column;
+    padding-bottom: 64px;
+    padding-top: 32px;
 }
 
 .text-group {
@@ -112,4 +114,23 @@ button {
 .sq-text {
     text-align: center;
     padding-top: 8px;
+}
+
+.quote-section {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 57px 300px 57px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-weight:100;
+    font-style: italic;
+    color: #1f2937
+}
+
+.author {
+    padding-left: 512px;
 }
