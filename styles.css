@@ -74,3 +74,42 @@ button {
     padding: 10px 0px 10px 0px;
     border-radius: 10px;
 }
+
+.info-section {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+}
+
+.text-group {
+    display: flex;
+    gap: 48px;
+
+}
+
+.blue-sq {
+    height: 150px;
+    width: 150px;
+    border: 3px solid #3882f6;
+    object-fit: fill;
+    border-radius: 16px;
+}
+
+.blue-sq > img {
+    min-width: 100%;
+    min-height: 100%;
+}
+
+.info-indiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    justify-content: center;
+}
+
+.sq-text {
+    text-align: center;
+    padding-top: 8px;
+}
